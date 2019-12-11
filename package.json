@@ -1,0 +1,21 @@
+{
+  "name": "two-factor-auth",
+  "version": "1.0.0",
+  "description": "two-factor-auth by Ivan Cabral",
+  "main": "index.js",
+  "author": "ivanrcabral",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ivanrcabral/two-factor-auth.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "notp": "^2.0.3",
+    "speakeasy": "^2.0.0",
+    "thirty-two": "^1.0.2"
+  }
+}
